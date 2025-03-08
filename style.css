@@ -80,6 +80,9 @@ html, body {
         /* flex-grow: 1; */
         width: 100%;
     }
+    #contentContain div {
+        margin: 0;
+    }
 }
 @media (max-aspect-ratio: 727/543) {
     body {
