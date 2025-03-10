@@ -44,12 +44,12 @@ h3 {
 
 #mainContainer a {
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
-#mainContainer a:hover {
+/* #mainContainer a:hover {
     text-decoration: underline;
-}
+} */
 
 body {
     margin: 0;
