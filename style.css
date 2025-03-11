@@ -1,10 +1,6 @@
-a::selection,
-p::selection,
-h2::selection,
-h3::selection,
-b::selection {
-    background-color: white;
-    color: rgb(26, 26, 29);
+a::selection, p::selection, h2::selection, h3::selection, b::selection, *::selection {
+    background-color: white !important;
+    color: rgb(26, 26, 29) !important;
 }
 
 #mainContainer {
@@ -18,7 +14,7 @@ b::selection {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
 }
 
 #contentContain {
@@ -37,7 +33,7 @@ b::selection {
 
 /* #mainContainer div {
     /* flex-grow: 1; */
-/* width: 20vw;
+    /* width: 20vw;
 } */
 
 #mainContainer p {
@@ -71,13 +67,12 @@ body {
     /* height: 100vh; */
 }
 
-html,
-body {
+html, body {
     height: 100%
 }
 
 @media only screen and (max-width: 945px) {
-
+    
     #contentContain {
         flex-direction: column;
         /* padding: 25px 30px; */
@@ -91,12 +86,10 @@ body {
         /* flex-grow: 1; */
         width: 100%;
     }
-
     #contentContain div {
         margin: 0;
     }
 }
-
 @media (max-aspect-ratio: 727/543) {
     body {
         background-size: auto 100%;
